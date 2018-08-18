@@ -28,10 +28,10 @@ def get_authenticated_service():
 
 
 # Twitter Authorization
-consumer_key = "jIHKFQUPIzHVDryIgfog2f0Ml"
-consumer_secret = "DBa0VdeLuoMflgP6yAu3sdWK14FYcg4bGE1Zoc5BeYawUNwVRi"
-access_token = "1739725010-oR0MS4tCK0f6Ji2kzUOBh9sLDV7zsfHNSmssnfH"
-access_token_secret = "r0CVAeUjM9w1ePaz4mz9eogecs0Vn0dKhzICT2k6ABcKY"
+consumer_key = ""
+consumer_secret = ""
+access_token = ""
+access_token_secret = ""
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
 try:
